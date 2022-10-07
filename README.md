@@ -16,5 +16,7 @@ id2([Project Briefing and divison]) --> id4([Creating frontend design]) --> id5(
 
 ### How to contribute ?
 > Star ⭐ and fork the repository... <br>
+
 > Clone the repository on your local machine... <br>
+
 > Get assigned yourself the issue you want to contribute.
