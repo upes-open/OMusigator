@@ -27,6 +27,16 @@
 - [x] Python (Flask or Django)
 - [x] HTML, CSS (or React)
 
+### Libraries to be used..
+1. itunes-iap
+2. spotipy
+3. ytmusicapi
+4. tidalapi
+5. deezer-pyhton
+6. soundcloud-lib
+7. pysaavn
+8. qobuz-dl
+
 ## Project Workflow
 
 ```mermaid
