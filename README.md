@@ -28,14 +28,11 @@
 - [x] HTML, CSS (or React)
 
 ### Libraries to be used..
-1. itunes-iap
-2. spotipy
-3. ytmusicapi
-4. tidalapi
-5. deezer-pyhton
-6. soundcloud-lib
-7. pysaavn
-8. qobuz-dl
+1. spotipy
+2. google-api-python-client
+3. YouTube Data API
+4. google-auth-oauthlib
+5. google-auth
 
 ## Project Workflow
 
