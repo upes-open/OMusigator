@@ -18,7 +18,7 @@
 </p>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/101355193/200174606-87386b28-c6c1-49f2-a956-ef1082fb4375.png" width=300px height=300px > </div>
+<img src="res\images\logo.png" width=300px height=300px > </div>
 
 ## :star2: Project Description
 > A web app that allows you to migrate your playlists and liked songs from one platform to the other with ease. It could potentially be integrated with the open website. The backend will be on python using the api's of the various music apps.
