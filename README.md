@@ -23,6 +23,13 @@
 ## :star2: Project Description
 > A web app that allows you to migrate your playlists and liked songs from one platform to the other with ease. It could potentially be integrated with the open website. The backend will be on python using the api's of the various music apps.
 
+## :wave: Contributors
+
+<a href="https://github.com/upes-open/Music-Player-Migrator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=upes-open/Music-Player-Migrator" />
+</a>
+
+
 ## Tech Stack 
 - [x] Python (Flask or Django)
 - [x] HTML, CSS (or React)
@@ -61,11 +68,7 @@ Go to the project directory
 
 > Start working on the assigned issue.
 
-## :wave: Contributing
 
-<a href="https://github.com/upes-open/Music-Player-Migrator/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=upes-open/Music-Player-Migrator" />
-</a>
 
 
 Contributions are always welcome!
