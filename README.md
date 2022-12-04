@@ -18,24 +18,28 @@
 </p>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/101355193/200174606-87386b28-c6c1-49f2-a956-ef1082fb4375.png" width=300px height=300px > </div>
+<img src="https://user-images.githubusercontent.com/101355193/205437297-f70e5395-94a3-4eec-a0c5-b55ef55cdb5a.png" width=300px height=300px > </div>
 
 ## :star2: Project Description
 > A web app that allows you to migrate your playlists and liked songs from one platform to the other with ease. It could potentially be integrated with the open website. The backend will be on python using the api's of the various music apps.
+
+## :wave: Contributors
+
+<a href="https://github.com/upes-open/Music-Player-Migrator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=upes-open/Music-Player-Migrator" />
+</a>
+
 
 ## Tech Stack 
 - [x] Python (Flask or Django)
 - [x] HTML, CSS (or React)
 
 ### Libraries to be used..
-1. itunes-iap
-2. spotipy
-3. ytmusicapi
-4. tidalapi
-5. deezer-pyhton
-6. soundcloud-lib
-7. pysaavn
-8. qobuz-dl
+1. spotipy
+2. google-api-python-client
+3. YouTube Data API
+4. google-auth-oauthlib
+5. google-auth
 
 ## Project Workflow
 
@@ -64,11 +68,7 @@ Go to the project directory
 
 > Start working on the assigned issue.
 
-## :wave: Contributing
 
-<a href="https://github.com/upes-open/Music-Player-Migrator/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=upes-open/Music-Player-Migrator" />
-</a>
 
 
 Contributions are always welcome!
