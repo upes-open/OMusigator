@@ -1,3 +1,4 @@
+
 <!--Badges-->
 <p align=center>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
@@ -5,6 +6,9 @@
   </a>&nbsp;&nbsp;
   <a href="">
     <img src="https://img.shields.io/github/last-commit/upes-open/Music-Player-Migrator" alt="last update" />
+  </a>&nbsp;&nbsp;
+  <a href="">
+    <img src="https://img.shields.io/badge/version-v1.1.0-orange"/>
   </a>&nbsp;&nbsp;
   <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
     <img src="https://img.shields.io/github/forks/upes-open/Music-Player-Migrator" alt="forks" />
