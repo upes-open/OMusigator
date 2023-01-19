@@ -1,3 +1,4 @@
+
 <!--Badges-->
 <p align=center>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
@@ -5,6 +6,9 @@
   </a>&nbsp;&nbsp;
   <a href="">
     <img src="https://img.shields.io/github/last-commit/upes-open/Music-Player-Migrator" alt="last update" />
+  </a>&nbsp;&nbsp;
+  <a href="">
+    <img src="https://img.shields.io/badge/version-v1.1.0-orange"/>
   </a>&nbsp;&nbsp;
   <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
     <img src="https://img.shields.io/github/forks/upes-open/Music-Player-Migrator" alt="forks" />
@@ -18,7 +22,7 @@
 </p>
 
 <div align=center>
-<img src="res\images\logo.png" width=300px height=300px > </div>
+<img src="https://user-images.githubusercontent.com/101355193/205437297-f70e5395-94a3-4eec-a0c5-b55ef55cdb5a.png" width=300px height=300px > </div>
 
 ## :star2: Project Description
 > A web app that allows you to migrate your playlists and liked songs from one platform to the other with ease. It could potentially be integrated with the open website. The backend will be on python using the api's of the various music apps.
