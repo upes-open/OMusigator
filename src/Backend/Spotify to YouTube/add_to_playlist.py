@@ -10,27 +10,27 @@ from search_in_yt import *
 def make_service():
     credentials = None
 
-    if(os.path.exists("tokem.pickle")):
-        print("Loading credentials from file...")
-        with open("token.pickle","rb") as token:
-            credentials = pickle.load(token)
+    # if(os.path.exists("token.pickle")):
+    #     print("Loading credentials from file...")
+    #     with open("token.pickle","rb") as token:
+    #         credentials = pickle.load(token)
 
-    if not credentials or not credentials.valid:
-        if credentials and credentials.expired and credentials.refresh_token:
-            print("Refreshing access token...")
-            credentials.refresh(Request())
-        else:
-            print("fetching new tokens...")
+    # if not credentials or not credentials.valid:
+    #     if credentials and credentials.expired and credentials.refresh_token:
+    #         print("Refreshing access token...")
+    #         credentials.refresh(Request())
+    #     else:
+    #         print("fetching new tokens...")
 
-            flow = InstalledAppFlow.from_client_secrets_file("src\Backend1\client_secrets.json",scopes=["https://www.googleapis.com/auth/youtube"] )
+    flow = InstalledAppFlow.from_client_secrets_file("src\Backend\client_secrets.json",scopes=["https://www.googleapis.com/auth/youtube"] )
 
-            flow.run_local_server(port=8080, prompt='consent', authorization_prompt_message='')
+    flow.run_local_server(port=8080, prompt='consent', authorization_prompt_message='')
 
-            credentials = flow.credentials
+    credentials = flow.credentials
 
-            with open("token.pickle","wb") as f:
-                print("Saving credentials for later use...")
-                pickle.dump(credentials,f)
+        # with open("token.pickle","wb") as f:
+        #         print("Saving credentials for later use...")
+        #         pickle.dump(credentials,f)
 
     service = build(serviceName='youtube', version='v3', credentials=credentials)
 
