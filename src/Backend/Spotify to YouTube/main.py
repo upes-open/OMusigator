@@ -5,7 +5,7 @@ from connect import *
 from search_in_yt import *
 from add_to_playlist import *
 
-playlist_link = "https://open.spotify.com/playlist/3NXuDjnoyINmBPQDwC1Zl6?si=a4c3cbcece684ec1"
+playlist_link = "https://open.spotify.com/playlist/1agMj2TVZcnB8jxVhQL8KW?si=9ff63f14847b487a"
 playlist_URI = playlist_link.split("/")[-1].split("?")[0]
 
 def main(plId):
