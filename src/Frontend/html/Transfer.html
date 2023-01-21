@@ -49,12 +49,33 @@
         <br>
         
         <div class="box4">
-            <a href=""></a><i class="fa-brands fa-spotify"></i>
-            <a href=""></a><i class="fa-brands fa-youtube"margin-left: 10%;></i>
+            <a href="#" onclick="openForm()"><i class="fa-brands fa-spotify"></i></a>
+            <a href="#" onclick="openForm()"><i class="fa-brands fa-youtube"margin-left: 10%;></i></a>
         </div>
         <br>
         <br>
     </div>
 
-    <div class ="popups"
 
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Playlist Link</h1>      
+          <input type="text" placeholder="Link" name="email" required>
+          <button type="submit" class="btn">Transfer</button>
+          <button type="submit" class="btn" onclick="closeForm()">Cancel</button>
+        </form>
+      </div>
+      
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+
+
+</body>
+</html>
