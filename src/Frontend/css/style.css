@@ -22,7 +22,6 @@ body {
     width: 100%;
 }
 
-
 .item {
     /* font-family: lexend deca; */
     font-weight: 600;
@@ -35,9 +34,11 @@ body {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     color: transparent; */
-}  
-.item span{
-    color: #a4d03b;;
+}
+
+.item span {
+    color: #a4d03b;
+    ;
 }
 
 [type="checkbox"]:checked,
@@ -333,120 +334,110 @@ body {
 
 /* -----------------box----------------- */
 
-.supported{
-    margin-left: 100px;
-    margin-top: 80px;
+.supported {
+    margin: 5%;
+    flex: content;
 }
 
 .box1 {
     border-radius: 25px;
-    border: 4px solid#a4d03b;
-    padding: 1%; 
-    width: 25%;
-    height: 100px;  
-    margin-left: 14%; 
-    display: inline-block; 
-  }
+    border: 3px solid#a4d03b;
+    padding: 1%;
+    margin-left: 14%;
+    display: inline-block;
+}
 
-
-.box1 h2{
+.box1 h3 {
     display: inline-block;
     line-height: 0px;
 }
 
-.box1 i{
-    display: inline-block;
+.box1 i {
     margin-left: 250px;
     line-height: 5px;
-    color:#a4d03b;
-    font-size: 4em;
-}
-.box1 p{
-    line-height: 5px;
+    color: #a4d03b;
+    font-size: 2.5em;
 }
 
-.box2 {
-    border-radius: 25px;
-    border: 4px solid#a4d03b;
-    padding: 1%; 
-    width: 25%;
-    height: 100px;  
-    margin-left: 14%; 
-    display: inline-block; 
-  }
-
-
-.box2 h2{
-    display: inline-block;
-    line-height: 0px;
+.box1 p {
+    line-height: 10px;
 }
 
-.box2 i{
-    display: inline-block;
-    margin-left: 250px;
-    line-height: 5px;
-    color:#a4d03b;
-    font-size: 4em;
-}
-.box2 p{
-    line-height: 5px;
+
+/* ---about----*/
+
+.about {
+    margin-left: 10%;
+    padding: 80px 0px;
+    width: 80%;
 }
 
-  /* ---about----*/
-  .about{
-    margin-left: 5%;
-    padding: 80px 0px ;
-    width: 90%;
-  }
+.about h1 {
+    color: #a4d03b;
+    font-family: "Gruppo";
+    font-weight: 600;
+}
 
-  .about h1{
-    color:#a4d03b;
-  }
-
-  .about p{
+.about p {
     font-size: larger;
-  }
+}
 
-  .about li{
+.about li {
     font-size: larger;
-  }
-
-
-  /* -----footer------ */
-
-  .footer {
-    background-color: #333;
-    padding: 1px ;
-    width: 100%;
-    margin-bottom: -100px;
-    margin-top: 10px;
-  }
-  
-  .footer-text {
-    color: #fff;
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: 10px;
-  }
-.footer img{
-    width:100px;
-    margin-left: 700px;
 }
 
-.nav1{
-    margin-left: 588px;
-}
 
-.nav1 a{
+/* -----footer------ */
+
+.rule {
+    width: 95%;
     color: #a4d03b;
 }
-/* ------------------------TRANSFER------------------- */
-.welcome hr{
-  height: 1px;
-  background: rgb(255, 255, 255);
-  width:300px;
-  margin-right: 600px;
+
+.footer-container {
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    position: relative;
 }
+
+.footer {
+    padding: 1px;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.nav1 .bar a {
+    color: #a4d03b;
+    padding: 0.8%;
+}
+
+.nav1 ul a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* ------------------------TRANSFER------------------- */
+
+.welcome hr {
+    height: 1px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    margin-right: 600px;
+}
+
 
 /* .button {
     background-color:  #73AD21;
@@ -462,29 +453,28 @@ body {
     font-family: 'Lexend Deca';
   } */
 
-  .box4 {
-    background-color:  #73AD21;
+.box4 {
+    background-color: #73AD21;
     width: 400px;
-    height: 100px;  
-    margin-left: 270px; 
+    height: 100px;
+    margin-left: 270px;
     /* display: inline-block;  */
-  }
+}
 
-.welcome{
+.welcome {
     margin-left: 300px;
     margin-top: 150px;
 }
 
-.welcome p{
-    margin-left: 320px; 
+.welcome p {
+    margin-left: 320px;
     font-family: 'Lexend Deca';
     line-height: 50px;
     font-size: 30px;
 }
 
-
-.welcome h1{
-    margin-left: 310px; 
+.welcome h1 {
+    margin-left: 310px;
     line-height: 70px;
     font-weight: 1000;
     color: #a4d03b;
@@ -492,11 +482,11 @@ body {
     font-size: 60px;
 }
 
-.welcome span{
+.welcome span {
     color: white;
 }
 
-.box4 i{
+.box4 i {
     font-size: 500%;
     margin-left: 7%;
     margin-top: 3%;
@@ -504,39 +494,3 @@ body {
     padding-inline: 10%;
     overflow: hidden;
 }
-
-.myForm{
-    color:#333;
-
-}
-
-  /* Add styles to the form container */
-  .form-container {
-    width: 500px;
-    height: 100px;  
-    margin-left: 150px; 
-  }
-   
-  /* Set a style for the submit/login button */
-  .form-container .btn {
-    background-color: #a4d03b;
-    color: black;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-    display: inline-block;
-  }
-  
-  /* Add a red background color to the cancel button */
-  /* .form-container .cancel {
-    background-color:  #04AA6D;
-  }
-   */
-  /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
-
