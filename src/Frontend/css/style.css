@@ -457,40 +457,116 @@ body {
     background-color: #73AD21;
     width: 400px;
     height: 100px;
-    margin-left: 270px;
-    /* display: inline-block;  */
+    display: inline-block;
+    position: relative;
 }
 
 .welcome {
-    margin-left: 300px;
-    margin-top: 150px;
+    text-align: center;
 }
 
 .welcome p {
-    margin-left: 320px;
+    display: inline-block;
     font-family: 'Lexend Deca';
-    line-height: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .welcome h1 {
-    margin-left: 310px;
     line-height: 70px;
     font-weight: 1000;
     color: #a4d03b;
     font-family: "Gruppo";
     font-size: 60px;
+    font-weight: 700;
 }
 
 .welcome span {
     color: white;
+    font-size: 45px;
 }
 
 .box4 i {
     font-size: 500%;
-    margin-left: 7%;
     margin-top: 3%;
     color: black;
     padding-inline: 10%;
-    overflow: hidden;
+}
+
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    float: inline-end;
+    border: 2px solid #a4d03b;
+    width: 30%;
+    z-index: 9;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    padding: 10px;
+    background-color: #252525;
+    text-align: center;
+    float: unset;
+}
+
+.form-container h1 {
+    font-size: 25px;
+    color: #a4d03b;
+}
+
+
+/* Full-width input fields */
+
+.form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #333;
+}
+
+
+/* When the inputs get focus, do something */
+
+.form-container input[type=text]:focus {
+    background-color: #333;
+    outline: none;
+}
+
+
+/* Set a style for the submit/login button */
+
+.form-container .btn {
+    background-color: #a4d03b;
+    display: inline-block;
+    color: #000;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    margin-right: 10px;
+    font-family: "Lexend Deca";
+    opacity: 0.8;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: red;
+    color: #fff;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
 }
