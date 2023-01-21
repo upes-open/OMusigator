@@ -340,34 +340,106 @@ body {
 
 .box1 {
     border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 300px;
+    border: 4px solid#a4d03b;
+    padding: 1%; 
+    width: 25%;
     height: 100px;  
+    margin-left: 14%; 
     display: inline-block; 
   }
 
-  .box2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 300px;
-    height: 100px; 
-    margin-left: 200px; 
-    display: inline-block; 
-  }
 
-  .box3 {
+.box1 h2{
+    display: inline-block;
+    line-height: 0px;
+}
+
+.box1 i{
+    display: inline-block;
+    margin-left: 250px;
+    line-height: 5px;
+    color:#a4d03b;
+    font-size: 4em;
+}
+.box1 p{
+    line-height: 5px;
+}
+
+.box2 {
     border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 300px;
+    border: 4px solid#a4d03b;
+    padding: 1%; 
+    width: 25%;
     height: 100px;  
-    margin-left: 200px; 
+    margin-left: 14%; 
     display: inline-block; 
   }
 
 
+.box2 h2{
+    display: inline-block;
+    line-height: 0px;
+}
+
+.box2 i{
+    display: inline-block;
+    margin-left: 250px;
+    line-height: 5px;
+    color:#a4d03b;
+    font-size: 4em;
+}
+.box2 p{
+    line-height: 5px;
+}
+
+  /* ---about----*/
+  .about{
+    margin-left: 5%;
+    padding: 80px 0px ;
+    width: 90%;
+  }
+
+  .about h1{
+    color:#a4d03b;
+  }
+
+  .about p{
+    font-size: larger;
+  }
+
+  .about li{
+    font-size: larger;
+  }
+
+
+  /* -----footer------ */
+
+  .footer {
+    background-color: #333;
+    padding: 1px ;
+    width: 100%;
+    margin-bottom: -100px;
+    margin-top: 10px;
+  }
+  
+  .footer-text {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+.footer img{
+    width:100px;
+    margin-left: 700px;
+}
+
+.nav1{
+    margin-left: 588px;
+}
+
+.nav1 a{
+    color: #a4d03b;
+}
 /* ------------------------TRANSFER------------------- */
 .welcome hr{
   height: 1px;
@@ -392,9 +464,9 @@ body {
 
   .box4 {
     background-color:  #73AD21;
-    width: 500px;
+    width: 400px;
     height: 100px;  
-    margin-left: 220px; 
+    margin-left: 270px; 
     /* display: inline-block;  */
   }
 
@@ -424,4 +496,12 @@ body {
     color: white;
 }
 
+.box4 i{
+    font-size: 500%;
+    margin-left: 7%;
+    margin-top: 3%;
+    color: black;
+    padding-inline: 10%;
+    overflow: hidden;
+}
 
