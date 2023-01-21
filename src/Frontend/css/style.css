@@ -505,3 +505,38 @@ body {
     overflow: hidden;
 }
 
+.myForm{
+    color:#333;
+
+}
+
+  /* Add styles to the form container */
+  .form-container {
+    width: 500px;
+    height: 100px;  
+    margin-left: 150px; 
+  }
+   
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #a4d03b;
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    display: inline-block;
+  }
+  
+  /* Add a red background color to the cancel button */
+  /* .form-container .cancel {
+    background-color:  #04AA6D;
+  }
+   */
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
