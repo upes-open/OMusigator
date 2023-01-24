@@ -22,7 +22,7 @@ def make_service():
     #     else:
     #         print("fetching new tokens...")
 
-    flow = InstalledAppFlow.from_client_secrets_file("src\Backend\client_secrets.json",scopes=["https://www.googleapis.com/auth/youtube"] )
+    flow = InstalledAppFlow.from_client_secrets_file("src/Backend/Spotify to YouTube/client_secrets.json",scopes=["https://www.googleapis.com/auth/youtube"] )
 
     flow.run_local_server(port=8080, prompt='consent', authorization_prompt_message='')
 
