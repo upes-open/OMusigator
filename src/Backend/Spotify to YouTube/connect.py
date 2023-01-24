@@ -9,7 +9,7 @@ spotify_client_secret = SP_CLIENT_SECRET
 youtube_api_key = os.environ.get("YT_API_KEY")
 
 def connect(id, secret):
-    sp =  spotipy.Spotify(auth_manager = SpotifyClientCredentials(client_id=spotify_client_id, client_secret= spotify_client_secret))
+    sp =  spotipy.Spotify(auth_manager = SpotifyClientCredentials(client_id=id, client_secret= secret))
     return sp
 
 def fetch_playlist_using_id(api, id):
